@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Shared style */
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+
+.btn{
+    border: none;
+    border-radius: 4px;
+    padding: 12px 16px;
+    background-color: #469165;
+    color: #FFFFFF;
+    text-align: center;
+    font: 16px;
+    font-weight: 600px;
+    margin: auto 2px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+
+
+.btn img{
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+}
+
+
+
+
+/* main-style */
+.body{
+    width: 1600px;
+}
+
+nav{
+    width: 85%;
+    max-width: 1360;
+    height: 92px;
+    margin: 16px 120px 0px 120px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    width: 139px;
+    
+
+}
+
+.logo p{
+    width: 70px;
+    font-size: 8px;
+    color: #001931;   
+    display: inline-block;
+    left: 183px;
+    top: 74px;
+    position: absolute;
+}
+
+nav .menu{
+    width: 365px;
+    display: flex;
+    justify-content: space-between;
+    margin: 34px 0px;
+    list-style-type: none;
+    align-items: center;
+    
+}
+
+nav .menu a{
+    width: 67px;
+    opacity: 90%;
+    font: 16px;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    line-height: 152%;
+    cursor: pointer;
+    
+}
+
+
+#banner{
+    max-width: 1600px;
+    height: 674px;
+    background: url("./assets/hero-bg.png");
+    padding: 70px 120px 134px 120px;
+
+}
+
+.banner-content{
+    width: 1360px;
+    height: 379px;
+    margin: 115px auto 179.5px auto;
+    /* margin: 0px auto; */
+    text-align: center;
+    align-items: center;
+}
+
+.banner-content .early{
+    border: none;
+    border-radius: 1000px;
+    width: 229px;
+    padding: 8px 12px;
+    gap: 6px;
+    background-color: #FFFFFF;
+    color: #469165;
+    font-size: 16px;
+    margin: 0px auto ;
+
+    
+}
+
+.banner-content h1{
+    width: 770px;
+    height: 168px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    color: #FFFFFF;
+    margin: 16px auto;
+}
+.banner-content h1 span{
+    color: #469165;
+}
+
+.banner-content p{
+   
+    font-size: 18px;
+    font-weight: 400;
+    font-style: regular;
+    gap: 10px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 16px auto;
+}
+
+.banner-content .butt{
+    width: 400px;
+    display: flex;
+    
+    margin: 32px auto ;
+    gap: 16px;
+}
+
+.btn-secondary{
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    padding: 12px 16px;
+    gap: 10px;
+    background-color: transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+}
