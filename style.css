@@ -104,7 +104,8 @@ nav .menu a{
 }
 
 .banner-content{
-    width: 1360px;
+    width: 85%;
+    max-width: 1360px;
     height: 379px;
     margin: 115px auto 179.5px auto;
     /* margin: 0px auto; */
@@ -141,9 +142,9 @@ nav .menu a{
 
 .banner-content p{
    
-    font-size: 18px;
-    font-weight: 400;
-    font-style: regular;
+    font: 18px;
+    /* font-weight: 400;
+    font-style: regular; */
     gap: 10px;
     line-height: 24px;
     color: #FFFFFF;
@@ -166,4 +167,76 @@ nav .menu a{
     background-color: transparent;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+#features{
+    
+    margin: 0px auto;
+    text-align: center;
+    padding: 40px 120px;
+    background-color: #F7F6F2;
+    gap: 16px;
+}
+
+#features .features-header{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0px auto;
+}
+
+#features .features-header h1{
+    font-size: 48px;
+    font-weight: 700px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+#features .features-header p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+#features .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 44px;
+    gap: 24px;
+   
+}
+
+.container .card{
+    width: 322px;
+    height: 300px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    padding: 70px 24px;
+    text-align: center;
+}
+
+.container .card img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 16px;
+    padding: 14px;
+    background-color: #F95555;
+    border: none;
+    border-radius: 1000px;
+}
+
+.container .card h2{
+    max-width: 274px;
+    font-size: 24px;
+    font-weight: 600px;
+    color: #001931;
+    margin-bottom: 16px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.container .card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
 }
