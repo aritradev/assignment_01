@@ -358,7 +358,6 @@ footer .footer-nav{
     color: #FFFFFF;
     height: 64px;
 }
-
 footer .footer-nav .footer-social p{
     font-size: 20px;
     font-weight: 500px;
@@ -374,9 +373,7 @@ footer .footer-nav .social-icons a{
     color: #001931;
     border-radius: 1000px;
     padding: 3px;
-    margin-right: 10px;
-   
-    
+    margin-right: 11px;
 }
 .social-icons a i{
     font-size: 16px;
