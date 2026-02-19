@@ -28,6 +28,10 @@
     align-items: center;
 }
 
+.btn i{
+    margin-left: 10px;
+}
+
 
 
 .btn img{
@@ -239,4 +243,101 @@ nav .menu a{
     font-size: 16px;
     line-height: 20px;
     color: #627382;
+}
+
+#solution{
+    width: 1600px;
+    height: 840px;
+    padding: 120px;
+    background-color: #FFFFFF;
+    /* gap: 16px; */
+}
+
+#solution .solution-content{
+    width: 85%;
+    max-width: 1360px;
+    gap: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#solution .solution-content img{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+
+#solution .solution-content .title{
+    font-size: 16px;
+    line-height: 20px;
+    color: #469165;
+    font-weight: 500px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+
+}
+
+#solution .solution-content h3{
+   
+    font-size: 39px;
+    font-weight: bold;
+    color: #001931;
+    margin: 16px 0px;
+}
+
+#solution .solution-content p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+#solution .solution-content .list{
+    display: flex;
+    align-items: center;
+    
+}
+
+#solution .solution-content .list img{
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    margin-bottom: 16px;
+}
+
+#solution .solution-content .list h6{
+    font-size: 12px;
+    line-height: 20px;
+    color: #001931;
+    font-weight: 500px;
+    margin-bottom: 16px;
+}
+
+#ready{
+    padding: 2px 120px 120px 120px;
+    text-align: center;
+}
+
+#ready .ready-content{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0px auto;
+    padding: 80px 40px;
+    background-color: #f7f6f2e8;
+    border-radius: 12px;
+}
+.ready-content h1{
+    font-size: 40px;
+    font-weight: 700px;
+    color: #001931;
+    
+}
+
+.ready-content p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+    margin-top: 16px;
 }
